@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap');
+
+@media only screen and (max-width: 1150px){
+    /* nAVIGATION baR */
+    .nav-list{
+        flex-direction: column;
+    }
+    .navbar{
+        height: 100%;
+        flex-direction: column;
+        transition:all 0.7s ease-out;
+        padding-top: 40px;
+    }
+    .li{
+        list-style: none;
+        padding: 19px 37px;
+
+    }
+    .logo img{
+        width: 40%;
+        height: 60%;
+        padding: 20px 20px;
+    }
+    .rightNav{
+        text-align: center;
+    }
+    #search{
+        width: 100%;
+    }
+    .burger{
+        display: block;
+    }
+    .h-nav-resp{
+        height: 72px;
+    }
+    .v-class-resp{
+        opacity: 0;
+    }
+
+
+    /* box main */
+    .box-main{
+        display: flex;
+        flex-direction: column-reverse;
+        max-width: 100%;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .section{
+        flex-direction: column-reverse;
+        margin-top: 35px;
+    }
+    .section .sectionSubTag{
+        text-align: justify;
+    }
+    .para{
+        padding: 0px;
+    }
+    .text-small{
+        text-align: center;
+    }
+    .text-big{
+        text-align: center;
+        padding: 20px;
+    }
+    .buttons{
+        text-align: center;
+    }
+    .secondHalf img{
+        width: 80%;
+        height: 90%;
+    }
+}
